@@ -1,3 +1,3 @@
-# nlpfun
-# Classifiers for Text 
-# Building spam classifier . 
+ #NLP 
+  - Classifiers for Text 
+  - Building spam classifier . 
