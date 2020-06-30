@@ -30,7 +30,7 @@ X_train, X_test, y_train, y_test = train_test_split(X_train_counts, mydata['labe
 #tfidf_transformer = TfidfTransformer()
 #X_train_tfidf = tfidf_transformer.fit_transform(X_train_counts)
 clf = MultinomialNB().fit(X_train, y_train)
-#print(X_train.shape)
+print(X_train.shape)
 
 
 
