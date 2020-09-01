@@ -12,8 +12,8 @@ X_train = X[:-100]
 Y_train = Y[:-100]
 
 # last 100 rows. 
-X_test = X[-100:]
-Y_test = Y[-100:]
+X_test = X[-200:]
+Y_test = Y[-200:]
 
 model = MultinomialNB().fit(X_train, Y_train)
 Y_predict = model.predict(X_test)
